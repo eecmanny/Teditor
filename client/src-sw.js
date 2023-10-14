@@ -19,10 +19,18 @@ const pageCache = new CacheFirst({
   ],
 });
 
+// warmStrategyCache helps ensure that the page is cached before the user navigates to it.
 warmStrategyCache({
   urls: ['/index.html', '/'],
   strategy: pageCache,
 });
+
+// offlineFallback ensures that the user will see the index.html page if offline.
+offlineFallback({
+  urls: ['/index.html', '/'],
+  strategy: pageCache,
+});
+
 
 
 // TODO: Implement asset caching - DONE
