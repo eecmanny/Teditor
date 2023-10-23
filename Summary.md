@@ -92,8 +92,10 @@ THEN I should have proper build scripts for a webpack application
 ![offline app](https://github.com/eecmanny/Teditor/assets/130661353/eb0f9c29-5129-4776-b9fa-4511d232fab8)
 
 ## Sources
-TA's
-Tutor
+TA's,
+
+Tutor,
+
 Module 19 Mini-project
 
 ## Review
