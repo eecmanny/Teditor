@@ -59,8 +59,7 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-## Mock-Up
-
+## My site
 
 ### Technical Acceptance Criteria: 40%
 
